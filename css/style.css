@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   width: 100%;
@@ -42,7 +41,7 @@ body {
   align-items: center;
 }
 
-.childflex div {
+.childflex .grandchildflex {
   margin: 0 5px;
   border: 2px solid #000;
   width: 100%;
@@ -50,18 +49,4 @@ body {
   background: yellow;
 }
 
-.childflexmid1 {
-  flex-wrap: wrap;
-  height: 300px;
-  width: 50%;
-  background: lightcoral;
-  border: 5px solid #000;
-}
 
-.childflexmid2 {
-  flex-wrap: wrap;
-  height: 150px;
-  width: 50%;
-  background: lightcoral;
-  border: 5px solid #000;
-}
